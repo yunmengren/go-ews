@@ -26,6 +26,7 @@ type Client interface {
 	GetFolder(eItem *elements.GetFolder) (*elements.GetFolderResponse, error)
 	FindItem(eItem *elements.FindItem) (*elements.FindItemResponse, error)
 	CreateItem(eItem *elements.CreateItem) (*elements.CreateItemResponse, error)
+	GetItem(eItem *elements.FindItem) (*elements.GetItemResponse, error)
 }
 
 type client struct {
