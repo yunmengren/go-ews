@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	goews "github.com/beorereleverion/go-ews"
-	"github.com/beorereleverion/go-ews/elements"
-	"github.com/beorereleverion/go-ews/operations"
 	log "github.com/sirupsen/logrus"
+	goews "github.com/yunmengren/go-ews"
+	"github.com/yunmengren/go-ews/elements"
+	"github.com/yunmengren/go-ews/operations"
 )
 
 var (

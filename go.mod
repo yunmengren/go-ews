@@ -1,6 +1,6 @@
-module github.com/beorereleverion/go-ews
+module github.com/yunmengren/go-ews
 
-go 1.19
+go 1.18
 
 require (
 	github.com/Azure/go-ntlmssp v0.0.0-20220621081337-cb9428e4ac1e

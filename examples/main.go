@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	goews "github.com/beorereleverion/go-ews"
-	"github.com/beorereleverion/go-ews/elements"
 	log "github.com/sirupsen/logrus"
+	goews "github.com/yunmengren/go-ews"
+	"github.com/yunmengren/go-ews/elements"
 )
 
 var (
@@ -24,7 +24,7 @@ func main() {
 		MessageDisposition: getPTR("SendAndSaveCopy"),
 		Items: &elements.ItemsNonEmptyArrayOfAllItemsType{
 			Message: &elements.Message{
-				
+
 				ItemClass: &elements.ItemClass{
 					TEXT: "IPM.Note",
 				},

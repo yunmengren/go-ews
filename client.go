@@ -9,8 +9,8 @@ import (
 	"net/http/httputil"
 
 	"github.com/Azure/go-ntlmssp"
-	"github.com/beorereleverion/go-ews/elements"
-	"github.com/beorereleverion/go-ews/operations"
+	"github.com/yunmengren/go-ews/elements"
+	"github.com/yunmengren/go-ews/operations"
 )
 
 type Envelope interface {

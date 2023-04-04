@@ -1,8 +1,8 @@
 package goews
 
 import (
-	"github.com/beorereleverion/go-ews/elements"
-	"github.com/beorereleverion/go-ews/operations"
+	"github.com/yunmengren/go-ews/elements"
+	"github.com/yunmengren/go-ews/operations"
 )
 
 // The GetFolder operation gets folders from the Exchange store.
