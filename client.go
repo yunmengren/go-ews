@@ -117,7 +117,10 @@ func applyConfig(config *Config, client *http.Client) {
 	}
 
 	if config.SkipTLS {
-		client.Transport.(*http.Transport).TLSClientConfig = &tls.Config{InsecureSkipVerify: true}
+		tr := &http.Transport{
+			TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
+		}
+		client.Transport = tr
 	}
 }
 
